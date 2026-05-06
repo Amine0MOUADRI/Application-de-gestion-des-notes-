@@ -1,34 +1,85 @@
-# Application-de-gestion-des-notes-
-Dans le contexte actuel de la digitalisation des processus administratifs au sein des
-établissements d'enseignement, la gestion efficace des notes étudiants représente un enjeu
-majeur pour les institutions académiques. Le présent projet s'inscrit dans cette démarche de
-modernisation en proposant une solution logicielle complète dédiée au suivi et à la gestion
-des résultats académiques.
+# 📸 Aperçu de l’Application
 
-Le Système Académique de Suivi et Gestion des Notes (SASGN) est une application desktop
-développée en Python qui permet aux enseignants et aux administrateurs de gérer de
-manière efficace les notes des étudiants. Cette application offre une interface graphique
-intuitive construite avec la bibliothèque Tkinter, facilitant ainsi l'interaction avec les données
-académiques.
+Le **Système Académique de Suivi et Gestion des Notes (SASGN)** propose une interface graphique intuitive et ergonomique permettant aux enseignants et aux administrateurs de gérer efficacement les données académiques des étudiants.
 
-1. Langage de Programmation :
+L’application facilite la consultation, la modification et le suivi des notes grâce à une organisation claire des fonctionnalités et une navigation simple.
 
-  Python a été choisi comme langage principal pour sa simplicité syntaxique, sa richesse en
-bibliothèques et sa grande communauté de développeurs. Sa versatilité permet de
-développer rapidement des applications desktop performantes.
+---
 
-3. Interface Graphique :
+## 🖼️ Présentation de l’Interface
 
-  Tkinter, la bibliothèque GUI standard de Python, a été retenue pour la création de l'interface
-utilisateur. Son intégration native avec Python et sa légèreté en font un choix idéal pour des
-applications desktop simples et efficaces.
+### 🏠 Interface Principale
 
-4. Manipulation de Données :
+<img width="742" height="533" alt="image" src="https://github.com/user-attachments/assets/8a9a4956-7c75-4a5a-8acc-82f3684998e0" />
 
-  La bibliothèque Pandas est utilisée pour la lecture et l'écriture des fichiers Excel, offrant des
-fonctionnalités puissantes pour la manipulation de données tabulaires.
 
-5. Génération de PDF :
+**Description :**
+- Accès aux différentes fonctionnalités du système
+- Navigation simple et intuitive
+- Gestion centralisée des opérations académiques
 
-  ReportLab est employé pour la génération des relevés de notes au format PDF, permettant
-une personnalisation complète du document final.
+---
+
+### 📋 Gestion des Notes
+
+Insérez ici une capture d’écran de la section de gestion des notes.
+
+<img width="994" height="658" alt="image" src="https://github.com/user-attachments/assets/3d4bc2b9-30a4-48e7-b6f8-66a4d1226d45" />
+
+**Description :**
+- Ajout et modification des notes
+- Consultation des résultats étudiants
+- Organisation claire des données académiques
+
+---
+
+### 🔍 Recherche des Étudiants
+
+**Description :**
+- Recherche rapide des étudiants
+- Consultation simplifiée des informations
+- Accès direct aux résultats académiques
+
+---
+
+### 🖨️ Génération des Relevés PDF
+
+**Description :**
+- Génération automatique des relevés de notes
+- Exportation au format PDF
+- Mise en page professionnelle des documents
+
+---
+
+### 🧩 Architecture / Schéma du Projet
+
+Insérez ici le schéma global ou l’architecture du projet.
+
+<img width="2680" height="3580" alt="image" src="https://github.com/user-attachments/assets/b713aec9-ccaa-4e61-aa60-b33610d4b7d1" />
+
+
+---
+
+# 🎨 Conception de l’Interface
+
+L’interface graphique a été développée avec **Tkinter**, la bibliothèque GUI standard de Python.  
+L’objectif principal était de concevoir une application :
+
+- simple à utiliser ;
+- légère et performante ;
+- ergonomique et accessible ;
+- adaptée aux besoins académiques.
+
+---
+
+# ⚙️ Fonctionnement Général
+
+Le système suit le processus suivant :
+
+1. Chargement des données académiques
+2. Gestion et mise à jour des notes
+3. Consultation des résultats
+4. Génération automatique des relevés PDF
+5. Exportation et sauvegarde des documents
+
+Cette approche permet d’assurer une gestion efficace et centralisée des informations académiques.
